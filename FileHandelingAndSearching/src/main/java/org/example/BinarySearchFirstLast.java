@@ -11,7 +11,7 @@ public class BinarySearchFirstLast {
             int mid = left + (right - left) / 2;
 
             if (arr[mid] == target) {
-                firstOccurrence = mid; // Target found, continue searching on  left side
+                firstOccurrence = mid; // Target found, continue searching on the left side
                 right = mid - 1;
             } else if (arr[mid] < target) {
                 left = mid + 1;
